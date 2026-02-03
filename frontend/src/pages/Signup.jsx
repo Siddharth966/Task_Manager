@@ -13,7 +13,8 @@ const Signup = () => {
     e.preventDefault();
     try {
       await register(name, email, password);
-      navigate('/dashboard');
+      alert('Registration successful, please login');
+      navigate('/login');
     } catch (error) {
       alert('Signup failed');
     }

@@ -113,7 +113,7 @@ const Navbar = () => {
                 onClick={() => setOpen(false)}
                 className="block py-2 text-white border-b border-white/20
                 hover:text-green-300 hover:scale-105 transition-all duration-300"
-              >
+              > 
                 Home
               </Link>
               <Link
